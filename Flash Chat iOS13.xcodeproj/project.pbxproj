@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -124,7 +124,6 @@
 				0526DDD427BA1FF22CC6DE8F /* Pods-Flash Chat iOS13.debug.xcconfig */,
 				021B88873D31FC61C5FCEC81 /* Pods-Flash Chat iOS13.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -403,7 +402,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = .com.djordje.FlashChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.djordje.FlashChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -422,7 +421,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = .com.djordje.FlashChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.djordje.FlashChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
