@@ -68,6 +68,10 @@ class ChatViewController: UIViewController {
                     print("There was an issue saving data to Firestore, \(e)")
                 } else {
                     print("Data succesfully saved.")
+                    
+                    DispatchQueue.main.async {
+                        self.messageTextfield.text = ""
+                    }
                 }
             }
         }
